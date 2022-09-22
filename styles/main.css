@@ -17,8 +17,24 @@ header h2{
     color: #800000;
     text-indent: 30px;
 }
-header img{
-    float:left;
-    text-shadow:2px 2px 2px rgb(128, 0, 0)
+#list {
+    line-height: 1.5em;
+}
+main nav{
+    margin-top: 3em;
+    font-size: 105%
+}
+main {
+    clear: left;
+}
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
+header img {
+    float: left;
+}
+.shadow {
+    /*text-shadow: 2px 2px 2px var(--global color;
+    text-shadow:2px 2px 2px rgb(128, 0, 0);
  }
- 
