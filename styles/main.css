@@ -10,7 +10,7 @@ body {
     box-shadow: 5px 5px 0 0;    
 }
 html{
-    background image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 }
 a:focus, a:hover{
     font-style: italic;
@@ -30,7 +30,7 @@ header h2{
     line-height: 1.5em;
 }
 main nav{
-    margin-top: 1.5em 2em 1.5em;
+    margin: 1.5em 2em 1.5em;
     border: 5px dashed blue;
     border-radius: 20px;    
     box-shadow: 3px 3px 4px 4px red;
@@ -52,6 +52,7 @@ footer p.copyright {
 }
 header img {
     float: left;
+    margin-left: 2em;
 }
 main h3 {
     font-size: 105%;
