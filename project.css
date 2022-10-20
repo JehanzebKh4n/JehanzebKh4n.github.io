@@ -1,0 +1,52 @@
+html{
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
+body {
+    width: 90px;
+    }
+a:focus, a:hover{
+    border-style: dotted solid;
+    color:3px blue;
+} 
+main h3 {
+    font-size: 105%;
+    margin: 3em 2em 1.5em;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px maroon;
+    padding: 1em;
+    Column-span:all
+}
+header img {
+    float: left;
+    margin-left: 2em;
+}
+article img{
+    float:left;
+    margin: 1em 1em ;
+}
+article p{
+font-size: 3em;
+font-weight: bold;
+font-style: italic;
+color: lightgreen ;
+}
+aside{
+    width: 20%;
+    float: right
+    background-color: #ffebc6
+    padding: 15px, 1.5em
+}
+footer p.copyright {
+    clear: both;
+    border-top: 2px solid maroon;
+}
+p fixed{
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    padding: 15px, 1.5em
+}
