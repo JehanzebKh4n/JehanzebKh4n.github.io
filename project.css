@@ -41,7 +41,7 @@ footer p.copyright {
     clear: both;
     border-top: 2px solid maroon;
 }
-p fixed{
+p fixed {
     width: auto;
     position: fixed;
     bottom: 35%;
