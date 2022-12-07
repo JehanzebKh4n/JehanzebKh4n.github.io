@@ -1,12 +1,12 @@
 let total = 0;
 
-const score1 = parseInt(prompt("Enter test score"));
+const score1 = parseInt(prompt("70"));
 total += score1;        
 
-const score2 = parseInt(prompt("Enter test score"));
+const score2 = parseInt(prompt("80"));
 total += score2;
 
-const score3 = parseInt(prompt("Enter test score"));
+const score3 = parseInt(prompt("90"));
 total += score3;
 
 const average = parseInt(total/3);
